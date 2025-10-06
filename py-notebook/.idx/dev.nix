@@ -5,8 +5,8 @@
   channel = "stable-25.05"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.python313
-    pkgs.python313Packages.pip
+    pkgs.python314
+    
   ];
   # Sets environment variables in the workspace
   env = {};
